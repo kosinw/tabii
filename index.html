@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <!-- <link rel="stylesheet" href="./styles/debug.css"> -->
+    <title>tabii.</title>
+</head>
+
+<body>
+    <section class="output-container container">
+        <div class="columns is-mobile is-centered">
+            <div id="output-img"></div>
+        </div>
+    </section>
+    <section class="logo-container container">
+        <div class="columns is-mobile is-centered content">
+            <pre class="center" id="title--logo"><h1 class="title">  |\__/,| (`\
+_.|o o |_ ) )
+-(((---(((----
+   tabii.
+</h1></pre>
+        </div>
+    </section>
+    <section class="quote-container container">
+        <div class="columns is-fluid is-centered is-mobile content">
+            <blockquote id="cat-quote" class="is-italic is-size-6 is-size-7-mobile is-family-monospace">...</blockquote>
+        </div>
+    </section>
+    <section class="dropdown-container container">
+        <div class="columns is-mobile is-centered dropdown-columns">
+            <tabii-dropdown></tabii-dropdown>
+            <button id="generate-button" class="button is-success">Generate Image</button>
+        </div>
+    </section>
+    <script src="./src/index.js" type="module"></script>
+</body>
+
+</html>
